@@ -8,5 +8,3 @@ To explore the potential of Termux-CloudOps, clone this repository to your Andro
 
 ```bash
 git clone https://github.com/yourusername/Termux-CloudOps.git
-
-![Project Image]([https://s2-techtudo.glbimg.com/Hc_WMfkajEepa9PLVlJTvpcV7uU=/0x0:333x514/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/Z/c/soMVVsR2SzCwj8KjbSzg/2012-03-20-androidlinux1.png])
