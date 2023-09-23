@@ -32,3 +32,9 @@ echo "AWS CLI installation and configuration completed."
 
 # Additional tools for SSH or customizations can be added here
 
+pkg install busybox termux-services -y
+pkg install jq -y
+
+
+passwd
+echo "Restarting Termux..."
