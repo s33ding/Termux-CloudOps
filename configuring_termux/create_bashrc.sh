@@ -1,1 +1,3 @@
-mv my_bashrc.txt ~/.bashrc
+cp my_bashrc.txt ~/.bashrc
+source ~/.bashrc
+
