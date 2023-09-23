@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Step 1: Update and upgrade Termux packages
-pkg update
+pkg update -y
 pkg upgrade -y
 
 # Step 2: Install Python and Pip
@@ -25,7 +25,7 @@ if ! git --version >/dev/null 2>&1; then
     pkg install -y git
 fi
 
-# Step 7: Install Vim, Git, and Additional Tools for SSH
+# Step 7: Install Vim and SSH
 pkg install -y vim openssh
 
 echo "AWS CLI installation and configuration completed."
@@ -37,4 +37,9 @@ pkg install jq -y
 
 
 passwd
+
+pkg update -y
+pkg upgrade -y
+
 echo "Restarting Termux..."
+exit
