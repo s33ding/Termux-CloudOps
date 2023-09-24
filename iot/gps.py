@@ -4,9 +4,6 @@ import json
 from datetime import datetime as dt
 from os import environ, system
 
-
-
-
 pth = "/data/data/com.termux/files/home/termux-CloudOps/iot/location/location.json"
 cmd = f"termux-location"
 bucket_name = environ["BUCKET"]
