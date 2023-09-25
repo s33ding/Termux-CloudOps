@@ -11,7 +11,7 @@ bucket_name = environ["BUCKET"]
 res = run([cmd], capture_output=True, text=True)
 if res.returncode == 0:
     data = json.loads(res.stdout)
-    data["timestamp"] = dt.now().strftime("%Y-%m-%d_%H:%M:%S")
+    data["timestamp"] = dt.now().isoformat()
     with open (pth, "w") as outfile:
         json.dump(data, outfile, indent=4) 
 
