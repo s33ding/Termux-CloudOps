@@ -29,11 +29,9 @@ In my journey, I encountered significant challenges in seeking solutions to oper
 
 - Proficiency in the Linux operating system, SSH protocol, bash scripts, and package installation and network systems.
 
-![Termux Program Open on Mobile](link-to-image)
 
 - Integration and management of AWS resources through the software development kit (SDK) with Boto3 using Python.
 
-![Boto3 Promotion Image and AWS Ecosystem Tools](link-to-image)
 
 ## Slide 7: Results
 Although my project is still ongoing, I am excited to highlight the significant advancements I have achieved independently. Besides my initial findings on connecting to the operating system of my mobile device, I gained control over a wide range of sensors, including biometric identification, camera, battery, and GPS, using open-source software called Termux-API. This expansion enriched my data collection and analysis capabilities. Additionally, I gained effective control over the resources of my personal AWS account, such as EC2 instances, directly from my mobile device using a software development kit (SDK) called Boto3, built in Python. Furthermore, my application was designed to work continuously through mobile internet connectivity, thanks to the use of Boto3, which surpasses the limitation of SSH, which only works on local networks. This means I can continuously send data to the cloud using my mobile data, regardless of my geographical location.
@@ -43,7 +41,6 @@ Although my project is still ongoing, I am excited to highlight the significant 
 - Continuous exploration of Android sensor data in future projects.
 - Utilization of new visualization tools like Chart.js.
 
-![Chart.js Promotion Image](link-to-image)
 
 ## Conclusion
 In conclusion, our journey through the integration of sensor data, cloud, and visualization is challenging and rewarding. We have seen how these diverse technologies can come together to solve real-world problems. Considering the need to connect things to cloud resources, where data continues its path using different technologies and tools in its pipelines, it is increasingly important to know these tools to stand out in the job market.
