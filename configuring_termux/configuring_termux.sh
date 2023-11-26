@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# Step 1: Update and upgrade Termux packages
+# Update and upgrade Termux packages
 pkg update -y
 pkg upgrade -y
 
-# Step 2: Install Python and Pip
+# Install Python and Pip
 pkg install -y python
 
-# Step 3: Install Pip
+# Install Pip
 pkg install -y python-pip
 
-# Step 4: Install AWS CLI using Pip
+# Install AWS CLI using Pip
 pip install awscli
 
-# Step 5: Configure AWS CLI
+# Configure AWS CLI
 aws configure
 
-# Step 6: Verify installation
+# Verify installation
 aws s3 ls
 
 # Check if Git is installed
@@ -25,7 +25,7 @@ if ! git --version >/dev/null 2>&1; then
     pkg install -y git
 fi
 
-# Step 7: Install Vim and SSH
+# Install Vim and SSH
 pkg install -y vim openssh
 
 echo "AWS CLI installation and configuration completed."
@@ -34,10 +34,12 @@ echo "AWS CLI installation and configuration completed."
 
 pkg install busybox termux-services -y
 pkg install jq -y
+pkg install htop
 
-
+# Changing the passoword
 passwd
 
+# Updating the new softwares
 pkg update -y
 pkg upgrade -y
 
