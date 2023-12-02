@@ -4,7 +4,7 @@ import json
 from datetime import datetime as dt
 from os import environ, system
 
-pth = "/data/data/com.termux/files/home/termux-CloudOps/iot/location/location.json"
+pth = "/data/data/com.termux/files/home/termux-CloudOps/iot/location.json"
 cmd = f"termux-location"
 bucket_name = environ["BUCKET"]
 
@@ -16,8 +16,8 @@ if res.returncode == 0:
         json.dump(data, outfile, indent=4) 
 
     system(f"aws s3 cp {pth} {bucket_name}/iot/location/{data['timestamp']}.json")
-    print(f"rm -r {pth}")
-    system(f"rm -r {pth}")
+    print(f"rm {pth}")
+    system(f"rm {pth}")
 
 else:
     print("failed")
