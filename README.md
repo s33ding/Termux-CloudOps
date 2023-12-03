@@ -15,7 +15,6 @@ Key components of the project:
 1. We begin by collecting sensor data using Termux-API on an Android device.
 2. Next, we use Python with the Boto3 library to send this data in JSON format to S3, AWS's storage system.
 3. AWS Lambda, code functions triggered by S3 events, in this case, responsible for processing the files and storing this information in a database system called DynamoDB.
-4. Finally, we employ Chart.js to create dynamic and interactive low-cost visualizations.
 
 ## Challenges
 In my journey, I encountered significant challenges in seeking solutions to operate a system that combines sensor data, the Linux system, cloud infrastructure, data visualization tools, and information security. To achieve this, I implemented:
@@ -39,7 +38,6 @@ Although my project is still ongoing, I am excited to highlight the significant 
 ## Expectations and Contributions
 - Valuable learning experience in the field of data engineering, especially in the context of cloud pipeline construction.
 - Continuous exploration of Android sensor data in future projects.
-- Utilization of new visualization tools like Chart.js.
 
 
 ## Conclusion
